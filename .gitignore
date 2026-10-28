@@ -31,3 +31,14 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# Configuracoes locais e credenciais
+.env
+.env.*
+!.env.example
+
+# Arquivos temporarios
+*.log
+
+src/main/java/br/com/lreduca/lr_educa_api/GerarHashSenha.java
